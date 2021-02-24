@@ -62,7 +62,7 @@ html, body {
 .product-sidebar-item >.list-group >.list-group-item a
 {
     color: #4d4d4d;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration:none;
 }
 .product-sidebar-item >.list-group >.list-group-item:first-child
@@ -70,9 +70,38 @@ html, body {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
+.row-offcanvas .thumbnail img
+{
+    width: 253px;
+    height: 162px;
+}
+.thumbnail .caption
+{
+    text-align: center;
+}
 .services .thumbnail
 {
 border: none;
+}
+.content_title
+{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.about_content p {
+    text-indent: 24px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.contactus_content ul{
+    padding: 0px;
+    margin: 0px;
+}
+.contactus_content li{
+    list-style: none;
+    padding: 5px 0px;
+    font-size: 16px;
 }
 .footer{
     border-top: 1px solid #cccccc;
@@ -97,4 +126,8 @@ text-decoration: none;
 
 .footer ol li{
 padding: 2px 0px;
+}
+.row-offcanvas
+{
+    margin-bottom: 10px;
 }
