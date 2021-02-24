@@ -2,18 +2,50 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
+          <span class="sr-only">目标导航</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">Project name</a>
+        <a class="navbar-brand" href="/">粮昌</a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          {% if page.url == "/" %}
+          <li class="active"><a href="/">首页</a></li>
+          {% else %}
+          <li><a href="/">首页</a></li>
+          {% endif %}
+
+          {% if page.url == "/about/" %}
+          <li class="active"><a href="/about/index.html">公司简介</a></li>
+          {% else %}
+          <li><a href="/about/index.html">公司简介</a></li>
+          {% endif %}
+
+          {% if page.url == "/product/" %}
+          <li class="active"><a href="/product/index.html">产品展示</a></li>
+          {% else %}
+          <li><a href="/product/index.html">产品展示</a></li>
+          {% endif %}
+
+          {% if page.url == "/case/" %}
+          <li class="active"><a href="/case/index.html">案例展示</a></li>
+          {% else %}
+          <li><a href="/case/index.html">案例展示</a></li>
+          {% endif %}
+
+          {% if page.url == "/news/" %}
+          <li class="active"><a href="/news/index.html">新联资讯</a></li>
+          {% else %}
+          <li><a href="/news/index.html">新联资讯</a></li>
+          {% endif %}
+
+          {% if page.url == "/contactus/" %}
+          <li class="active"><a href="/contactus/index.html">联系我们</a></li>
+          {% else %}
+          <li><a href="/contactus/index.html">联系我们</a></li>
+          {% endif %}
         </ul>
       </div>
     </div>

@@ -1,7 +1,100 @@
-body {
-    padding-top: 70px;
-}
-
 html, body {
     overflow-x: hidden;
+}
+.navbar-inverse,.navbar-inverse .navbar-header,.navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-brand
+{
+    color: #FFF;
+}
+.navbar-inverse
+{
+    background-color: #0084bb;
+    border: none;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+    background-color: #fff;
+    color:#0084bb;
+}
+.carousel
+{
+    margin-bottom: 10px;
+}
+.product-sidebar-nav{
+       border: 2px solid #0084bb;
+       padding: 1px;
+}
+.product-sidebar-nav-title
+{
+    height: 55px;
+    padding-top: 10px;
+    background: #0084bb;
+    text-align: center;
+    font-size: 18px;
+    color: #f7f5f5;
+}
+.product-sidebar-nav-title p
+{
+    font-size: 10px;
+    line-height: 13px;
+}
+.product-sidebar-item
+{
+    margin: 0 auto;
+    height: auto;
+    margin: 15px 10px 10px 10px;
+}
+.product-sidebar-item >.list-group >.list-group-item.active{
+    height: 40px;
+    padding-left: 26px;
+    color: #fff;
+    font-weight: 900;
+    margin: 10px 0;   
+    background: #0084bb;
+}
+.product-sidebar-item >.list-group >.list-group-item{
+    border:none;
+    padding-left: 40px;
+}
+.product-sidebar-item >.list-group >.list-group-item a:hover
+{
+    cursor: pointer;
+}
+.product-sidebar-item >.list-group >.list-group-item a
+{
+    color: #4d4d4d;
+    font-size: 12px;
+    text-decoration:none;
+}
+.product-sidebar-item >.list-group >.list-group-item:first-child
+{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.services .thumbnail
+{
+border: none;
+}
+.footer{
+    border-top: 1px solid #cccccc;
+    background: #0084bb;
+}
+.footer .list-inline
+{
+    margin-bottom: 20px;
+}
+.footer .list-inline a
+{
+color: #fff;
+margin-right: 20px;
+font-weight: bold;
+text-decoration: none;
+}
+.footer ol{
+    padding: 0px;
+    list-style: none;
+    color: #fff;
+}
+
+.footer ol li{
+padding: 2px 0px;
 }
