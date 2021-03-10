@@ -75,9 +75,17 @@ html, body {
     // width: 253px;
     height: 162px;
 }
-.thumbnail .caption
+.row-offcanvas-right .thumbnail .list-unstyled{
+width: 90%;
+margin-bottom:0px;
+}
+.row-offcanvas-right .thumbnail
 {
-    text-align: center;
+    margin-bottom:10px;
+}
+.row-offcanvas-right .thumbnail .caption
+{
+    padding: 2px 0px 2px 20px;
 }
 .services .thumbnail
 {
